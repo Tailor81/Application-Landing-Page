@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+/* Hero Section */
+#hero {
+    background: #008689;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    background: #fff;
+    color: #008689;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#hero .btn:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background: #fff;
+}
+
+#about .text-column {
+    float: left;
+    width: 50%;
+}
+
+#about .image-column {
+    float: right;
+    width: 50%;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#about::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Features Section */
+#features {
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1;
+    max-width: 22%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Beta Testing Invitation */
+#beta-testing {
+    padding: 60px 0;
+    background: #008689;
+    color: #fff;
+    text-align: center;
+}
+
+#beta-testing .btn {
+    background: #fff;
+    color: #008689;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#beta-testing .btn:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+/* FAQ Section */
+#faq {
+    padding: 60px 0;
+    background: #fff;
+}
+
+#faq h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    padding: 15px;
+    background: #008689;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.faq-item h3:hover {
+    background: #0056b3;
+}
+
+.faq-item p {
+    display: none;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 0 0 8px 8px;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
